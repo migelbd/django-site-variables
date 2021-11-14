@@ -14,9 +14,9 @@ setup(
     description='Site variables application',
     include_package_data=True,
     package_data={
-        'site_settings': [
-            'site_settings/locale/*/LC_MESSAGES/*.mo',
-            'site_settings/locale/*/LC_MESSAGES/*.po',
+        'django_site_variables': [
+            'django_site_variables/locale/*/LC_MESSAGES/*.mo',
+            'django_site_variables/locale/*/LC_MESSAGES/*.po',
         ]
     },
     classifiers=[
