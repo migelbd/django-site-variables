@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name='django-site-variables',
     version='0.1',
-    packages=['django_site_variables', 'django_site_settings.migrations'],
+    packages=['django_site_variables', 'django_site_variables.migrations'],
     url='',
     license='MIT',
     author='Mikhail Badrazhan',
