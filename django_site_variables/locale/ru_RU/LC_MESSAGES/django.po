@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 18:17+0000\n"
+"POT-Creation-Date: 2021-11-14 20:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,62 +17,62 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: django_site_settings/admin.py:40 django_site_settings/models.py:30
+#: django_site_variables/admin.py:40 django_site_variables/models.py:30
 msgid "value"
 msgstr ""
 
-#: django_site_settings/apps.py:8
-msgid "Site settings"
+#: django_site_variables/apps.py:8
+msgid "Site variables"
 msgstr ""
 
-#: django_site_settings/models.py:24
+#: django_site_variables/models.py:24
 msgid "Text"
 msgstr ""
 
-#: django_site_settings/models.py:25
+#: django_site_variables/models.py:25
 msgid "Boolean"
 msgstr ""
 
-#: django_site_settings/models.py:26
+#: django_site_variables/models.py:26
 msgid "Number"
 msgstr ""
 
-#: django_site_settings/models.py:29
+#: django_site_variables/models.py:29
 msgid "name"
 msgstr ""
 
-#: django_site_settings/models.py:32
+#: django_site_variables/models.py:32
 msgid "value type"
 msgstr ""
 
-#: django_site_settings/models.py:38
+#: django_site_variables/models.py:38
 msgid "site variable"
 msgstr ""
 
-#: django_site_settings/models.py:39
+#: django_site_variables/models.py:39
 msgid "site variables"
 msgstr ""
 
-#: django_site_settings/models.py:47
+#: django_site_variables/models.py:47
 msgid "string"
 msgstr ""
 
-#: django_site_settings/models.py:48
+#: django_site_variables/models.py:48
 msgid "strings"
 msgstr ""
 
-#: django_site_settings/models.py:56
+#: django_site_variables/models.py:56
 msgid "boolean value"
 msgstr ""
 
-#: django_site_settings/models.py:57
+#: django_site_variables/models.py:57
 msgid "boolean values"
 msgstr ""
 
-#: django_site_settings/models.py:65
+#: django_site_variables/models.py:65
 msgid "number value"
 msgstr ""
 
-#: django_site_settings/models.py:66
+#: django_site_variables/models.py:66
 msgid "number values"
 msgstr ""

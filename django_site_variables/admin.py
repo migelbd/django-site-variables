@@ -1,10 +1,9 @@
 from django.contrib import admin
-from django_site_settings.forms import SiteVariableForm, SiteVariableNumberForm, SiteVariableBooleanForm
+from django_site_variables.forms import SiteVariableNumberForm, SiteVariableBooleanForm
 from django.utils.translation import gettext_lazy as _
-from django_site_settings.models import SiteVariable, SiteVariableText, SiteVariableBoolean, SiteVariableNumber
+from django_site_variables.models import SiteVariableText, SiteVariableBoolean, SiteVariableNumber
 
 
-# @admin.register(SiteVariable)
 class SiteVariableAdmin(admin.ModelAdmin):
     list_display = (
         'id',
@@ -50,5 +49,3 @@ class SiteVariableNumberAdmin(SiteVariableAdmin):
         'name',
         'content',
     )
-
-

@@ -1,7 +1,7 @@
 import typing
 from typing import Union, Optional
 
-from django_site_settings.models import SiteVariable
+from django_site_variables.models import SiteVariable
 
 
 def __get_first(list_: list, default):

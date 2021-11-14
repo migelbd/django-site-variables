@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('django_site_settings', '0001_initial'),
+        ('django_site_variables', '0001_initial'),
     ]
 
     operations = [
@@ -21,7 +21,7 @@ class Migration(migrations.Migration):
                 'indexes': [],
                 'constraints': [],
             },
-            bases=('django_site_settings.sitevariable',),
+            bases=('django_site_variables.sitevariable',),
         ),
         migrations.CreateModel(
             name='SiteVariableNumber',
@@ -34,7 +34,7 @@ class Migration(migrations.Migration):
                 'indexes': [],
                 'constraints': [],
             },
-            bases=('django_site_settings.sitevariable',),
+            bases=('django_site_variables.sitevariable',),
         ),
         migrations.CreateModel(
             name='SiteVariableText',
@@ -47,7 +47,7 @@ class Migration(migrations.Migration):
                 'indexes': [],
                 'constraints': [],
             },
-            bases=('django_site_settings.sitevariable',),
+            bases=('django_site_variables.sitevariable',),
         ),
         migrations.AlterField(
             model_name='sitevariable',

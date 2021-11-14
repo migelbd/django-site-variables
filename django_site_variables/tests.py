@@ -1,7 +1,7 @@
 from django.test import TestCase
 
-from django_site_settings.helper import get_site_variable, get_many_site_variables
-from django_site_settings.models import SiteVariable
+from django_site_variables.helper import get_site_variable, get_many_site_variables
+from django_site_variables.models import SiteVariable
 
 
 class DjangoSiteSettingsTestCase(TestCase):
